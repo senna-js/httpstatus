@@ -16,12 +16,6 @@ Your project is live at:
 
 **[https://vercel.com/c0dex666-server/httpstatus](https://vercel.com/c0dex666-server/httpstatus)**
 
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/9M3FHcFAv66](https://v0.dev/chat/projects/9M3FHcFAv66)**
-
 ## How It Works
 
 1. Create and modify your project using [v0.dev](https://v0.dev)
