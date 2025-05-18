@@ -14,7 +14,7 @@ Any changes you make to your deployed app will be automatically pushed to this r
 
 Your project is live at:
 
-**[https://vercel.com/c0dex666-server/httpstatus](https://vercel.com/c0dex666-server/httpstatus)**
+**[Vercel](https://vercel.com/c0dex666-server/httpstatus)**
 
 ## How It Works
 
