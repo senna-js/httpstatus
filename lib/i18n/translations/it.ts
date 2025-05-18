@@ -1,0 +1,168 @@
+export const it = {
+  // Navigation
+  "nav.home": "Home",
+  "nav.tools": "Strumenti",
+  "nav.resources": "Risorse",
+  "nav.statusCodes": "Codici di Stato",
+  "nav.learn": "Impara HTTP",
+  "nav.api": "Documentazione API",
+  "nav.help": "Aiuto e FAQ",
+
+  // Tools
+  "tools.redirectChecker": "Verificatore di Reindirizzamenti",
+  "tools.redirectChecker.desc": "Analizza e visualizza catene di reindirizzamento",
+  "tools.headerAnalyzer": "Analizzatore di Header",
+  "tools.headerAnalyzer.desc": "Ispeziona e convalida gli header HTTP",
+  "tools.bulkChecker": "Verificatore di URL in Massa",
+  "tools.bulkChecker.desc": "Controlla più URL contemporaneamente",
+  "tools.statusChecker": "Verificatore di Stato HTTP",
+  "tools.statusChecker.desc":
+    "Controlla codici di stato, header di risposta e catene di reindirizzamento per qualsiasi URL",
+
+  // Home page
+  "home.title": "Controlla facilmente codici di stato, header di risposta e catene di reindirizzamento.",
+  "home.subtitle": "Analizza e convalida rapidamente gli URL con funzionalità utili",
+  "home.features.title": "Funzionalità facili da usare",
+  "home.features.subtitle": "Analizza e convalida rapidamente gli URL con funzionalità utili",
+  "home.feature1.title": "Verificatore di reindirizzamenti",
+  "home.feature1.desc":
+    "Traccia e analizza le catene di reindirizzamento per garantire il corretto inoltro degli URL ed evitare problemi SEO.",
+  "home.feature2.title": "Header di richiesta",
+  "home.feature2.desc":
+    "Ispeziona gli header HTTP per risolvere problemi di caching, sicurezza e negoziazione dei contenuti.",
+  "home.feature3.title": "Opzioni di filtro",
+  "home.feature3.desc":
+    "Filtra e ordina facilmente i risultati per categorie di codice di stato per concentrarti su problemi specifici.",
+  "home.learnMore": "Scopri di più sui codici di stato HTTP",
+
+  // Status checker
+  "checker.placeholder": "Inserisci gli URL da controllare, uno per riga. Massimo 50 URL per richiesta.",
+  "checker.examples": "Mostrami alcuni esempi",
+  "checker.canonicalCheck": "Controllo dominio canonico",
+  "checker.userAgent": "User Agent:",
+  "checker.userAgents.browser": "Il Tuo Browser",
+  "checker.userAgents.googlebot": "Googlebot",
+  "checker.userAgents.bingbot": "Bingbot",
+  "checker.userAgents.mobile": "Dispositivo Mobile",
+  "checker.processing": "Elaborazione URL...",
+  "checker.checkButton": "Controlla stato",
+  "checker.checking": "Controllo in corso...",
+  "checker.error.noUrl": "Inserisci almeno un URL da controllare",
+  "checker.warning.tooMany":
+    "È possibile controllare un massimo di 50 URL alla volta. Verranno elaborati solo i primi 50.",
+  "checker.error.failed": "Impossibile controllare gli URL",
+
+  // Results
+  "results.title": "Risultati ({count} URL)",
+  "results.export.csv": "Esporta CSV",
+  "results.export.json": "Esporta JSON",
+  "results.categories.success": "Successo",
+  "results.categories.redirect": "Reindirizzamento",
+  "results.categories.clientError": "Errore Client",
+  "results.categories.serverError": "Errore Server",
+  "results.categories.errors": "Errori",
+  "results.tabs.all": "Tutti",
+  "results.tabs.success": "Successo",
+  "results.tabs.redirect": "Reindirizzamento",
+  "results.tabs.clientError": "Errore Client",
+  "results.tabs.serverError": "Errore Server",
+  "results.tabs.error": "Errori",
+  "results.noResults": "Nessun risultato corrisponde al filtro selezionato",
+  "results.status": "Stato",
+  "results.canonicalUrl": "URL Canonico",
+  "results.redirectChain": "Catena di Reindirizzamento",
+  "results.headers": "Header",
+  "results.error": "Errore",
+  "results.failedFetch": "Impossibile recuperare l'URL",
+
+  // History
+  "history.title": "Cronologia URL",
+  "history.recent": "Controlli Recenti",
+  "history.empty": "Ancora nessuna cronologia",
+  "history.clear": "Cancella Cronologia",
+  "history.cleared": "La tua cronologia URL è stata cancellata.",
+  "history.urls": "URL",
+  "history.url": "URL",
+  "history.more": "altri",
+
+  // Settings
+  "settings.title": "Impostazioni",
+  "settings.saved": "Le tue preferenze sono state salvate.",
+  "settings.tabs.appearance": "Aspetto",
+  "settings.tabs.display": "Visualizzazione",
+  "settings.tabs.behavior": "Comportamento",
+  "settings.theme": "Tema",
+  "settings.colorScheme": "Schema Colori",
+  "settings.colors.default": "Predefinito (Blu)",
+  "settings.colors.green": "Verde",
+  "settings.colors.purple": "Viola",
+  "settings.showHeaders": "Mostra Header di Risposta",
+  "settings.showHeaders.desc": "Visualizza gli header di risposta HTTP nei risultati",
+  "settings.showRedirectChain": "Mostra Catena di Reindirizzamento",
+  "settings.showRedirectChain.desc": "Visualizza la catena completa di reindirizzamento per gli URL",
+  "settings.compactView": "Vista Compatta",
+  "settings.compactView.desc": "Visualizza i risultati in un formato più compatto",
+  "settings.showStatusDescription": "Mostra Descrizione Stato",
+  "settings.showStatusDescription.desc": "Visualizza le descrizioni per i codici di stato HTTP",
+  "settings.autoCheckCanonical": "Controllo Canonico Automatico",
+  "settings.autoCheckCanonical.desc": "Controlla automaticamente gli URL canonici",
+  "settings.autoAddProtocol": "Aggiungi Protocollo Automaticamente",
+  "settings.autoAddProtocol.desc": "Aggiungi automaticamente https:// agli URL senza protocollo",
+  "settings.autoSaveHistory": "Salva Cronologia Automaticamente",
+  "settings.autoSaveHistory.desc": "Salva automaticamente gli URL controllati nella cronologia",
+  "settings.defaultUserAgent": "User Agent Predefinito",
+  "settings.buttons.cancel": "Annulla",
+  "settings.buttons.save": "Salva Modifiche",
+
+  // Language
+  "language.select": "Seleziona lingua",
+  "language.changed": "Lingua cambiata in {name}",
+  "language.changed.desc": "La lingua dell'applicazione è stata aggiornata.",
+
+  // Theme
+  "theme.light": "Chiaro",
+  "theme.dark": "Scuro",
+  "theme.system": "Sistema",
+  "theme.activated": "Tema {theme} attivato",
+  "theme.activated.desc": "L'applicazione è ora in modalità {theme}.",
+
+  // Search
+  "search.placeholder": "Controlla URL o cerca...",
+
+  // Footer
+  "footer.copyright": "© {year} Verificatore di Stato HTTP. Tutti i diritti riservati.",
+  "footer.privacy": "Privacy",
+  "footer.terms": "Termini",
+  "footer.contact": "Contatti",
+
+  // Date formatting
+  "date.format.short": "dd/MM/yyyy",
+  "date.format.long": "d MMMM yyyy",
+  "date.timeAgo.seconds": "{count} secondi fa",
+  "date.timeAgo.minutes": "{count} minuti fa",
+  "date.timeAgo.hours": "{count} ore fa",
+  "date.timeAgo.days": "{count} giorni fa",
+  "date.timeAgo.weeks": "{count} settimane fa",
+  "date.timeAgo.months": "{count} mesi fa",
+  "date.timeAgo.years": "{count} anni fa",
+
+  // Common
+  "common.loading": "Caricamento...",
+  "common.error": "Errore",
+  "common.warning": "Avviso",
+  "common.success": "Successo",
+  "common.info": "Informazione",
+  "common.close": "Chiudi",
+  "common.save": "Salva",
+  "common.cancel": "Annulla",
+  "common.delete": "Elimina",
+  "common.edit": "Modifica",
+  "common.add": "Aggiungi",
+  "common.remove": "Rimuovi",
+  "common.yes": "Sì",
+  "common.no": "No",
+  "common.back": "Indietro",
+  "common.next": "Avanti",
+  "common.previous": "Precedente",
+  "common.menu": "Menu",
+}

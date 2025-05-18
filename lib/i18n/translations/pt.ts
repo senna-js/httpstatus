@@ -1,0 +1,168 @@
+export const pt = {
+  // Navigation
+  "nav.home": "Início",
+  "nav.tools": "Ferramentas",
+  "nav.resources": "Recursos",
+  "nav.statusCodes": "Códigos de Status",
+  "nav.learn": "Aprender HTTP",
+  "nav.api": "Documentação da API",
+  "nav.help": "Ajuda e FAQ",
+
+  // Tools
+  "tools.redirectChecker": "Verificador de Redirecionamento",
+  "tools.redirectChecker.desc": "Analisar e visualizar cadeias de redirecionamento",
+  "tools.headerAnalyzer": "Analisador de Cabeçalhos",
+  "tools.headerAnalyzer.desc": "Inspecionar e validar cabeçalhos HTTP",
+  "tools.bulkChecker": "Verificador de URLs em Massa",
+  "tools.bulkChecker.desc": "Verificar múltiplas URLs de uma vez",
+  "tools.statusChecker": "Verificador de Status HTTP",
+  "tools.statusChecker.desc":
+    "Verificar códigos de status, cabeçalhos de resposta e cadeias de redirecionamento para qualquer URL",
+
+  // Home page
+  "home.title": "Verifique facilmente códigos de status, cabeçalhos de resposta e cadeias de redirecionamento.",
+  "home.subtitle": "Analise e valide URLs rapidamente com funcionalidades úteis",
+  "home.features.title": "Recursos fáceis de usar",
+  "home.features.subtitle": "Analise e valide URLs rapidamente com funcionalidades úteis",
+  "home.feature1.title": "Verificador de redirecionamento",
+  "home.feature1.desc":
+    "Rastreie e analise cadeias de redirecionamento para garantir o encaminhamento adequado de URL e evitar problemas de SEO.",
+  "home.feature2.title": "Cabeçalhos de requisição",
+  "home.feature2.desc":
+    "Inspecione cabeçalhos HTTP para depurar problemas de cache, segurança e negociação de conteúdo.",
+  "home.feature3.title": "Opções de filtro",
+  "home.feature3.desc":
+    "Filtre e ordene resultados por categorias de código de status facilmente para focar em problemas específicos.",
+  "home.learnMore": "Saiba mais sobre códigos de status HTTP",
+
+  // Status checker
+  "checker.placeholder": "Digite URLs para verificar, uma por linha. Máximo de 50 URLs por requisição.",
+  "checker.examples": "Mostre-me alguns exemplos",
+  "checker.canonicalCheck": "Verificação de domínio canônico",
+  "checker.userAgent": "Agente de Usuário:",
+  "checker.userAgents.browser": "Seu Navegador",
+  "checker.userAgents.googlebot": "Googlebot",
+  "checker.userAgents.bingbot": "Bingbot",
+  "checker.userAgents.mobile": "Dispositivo Móvel",
+  "checker.processing": "Processando URLs...",
+  "checker.checkButton": "Verificar status",
+  "checker.checking": "Verificando...",
+  "checker.error.noUrl": "Por favor, insira pelo menos uma URL para verificar",
+  "checker.warning.tooMany":
+    "Máximo de 50 URLs podem ser verificadas de uma vez. Apenas as primeiras 50 serão processadas.",
+  "checker.error.failed": "Falha ao verificar URLs",
+
+  // Results
+  "results.title": "Resultados ({count} URLs)",
+  "results.export.csv": "Exportar CSV",
+  "results.export.json": "Exportar JSON",
+  "results.categories.success": "Sucesso",
+  "results.categories.redirect": "Redirecionamento",
+  "results.categories.clientError": "Erro do Cliente",
+  "results.categories.serverError": "Erro do Servidor",
+  "results.categories.errors": "Erros",
+  "results.tabs.all": "Todos",
+  "results.tabs.success": "Sucesso",
+  "results.tabs.redirect": "Redirecionamento",
+  "results.tabs.clientError": "Erro do Cliente",
+  "results.tabs.serverError": "Erro do Servidor",
+  "results.tabs.error": "Erros",
+  "results.noResults": "Nenhum resultado corresponde ao filtro selecionado",
+  "results.status": "Status",
+  "results.canonicalUrl": "URL Canônica",
+  "results.redirectChain": "Cadeia de Redirecionamento",
+  "results.headers": "Cabeçalhos",
+  "results.error": "Erro",
+  "results.failedFetch": "Falha ao buscar URL",
+
+  // History
+  "history.title": "Histórico de URL",
+  "history.recent": "Verificações Recentes",
+  "history.empty": "Ainda não há histórico",
+  "history.clear": "Limpar Histórico",
+  "history.cleared": "Seu histórico de URL foi limpo.",
+  "history.urls": "URLs",
+  "history.url": "URL",
+  "history.more": "mais",
+
+  // Settings
+  "settings.title": "Configurações",
+  "settings.saved": "Suas preferências foram salvas.",
+  "settings.tabs.appearance": "Aparência",
+  "settings.tabs.display": "Exibição",
+  "settings.tabs.behavior": "Comportamento",
+  "settings.theme": "Tema",
+  "settings.colorScheme": "Esquema de Cores",
+  "settings.colors.default": "Padrão (Azul)",
+  "settings.colors.green": "Verde",
+  "settings.colors.purple": "Roxo",
+  "settings.showHeaders": "Mostrar Cabeçalhos de Resposta",
+  "settings.showHeaders.desc": "Exibir cabeçalhos de resposta HTTP nos resultados",
+  "settings.showRedirectChain": "Mostrar Cadeia de Redirecionamento",
+  "settings.showRedirectChain.desc": "Exibir a cadeia completa de redirecionamento para URLs",
+  "settings.compactView": "Visualização Compacta",
+  "settings.compactView.desc": "Exibir resultados em um formato mais compacto",
+  "settings.showStatusDescription": "Mostrar Descrição de Status",
+  "settings.showStatusDescription.desc": "Exibir descrições para códigos de status HTTP",
+  "settings.autoCheckCanonical": "Verificação Canônica Automática",
+  "settings.autoCheckCanonical.desc": "Verificar automaticamente URLs canônicas",
+  "settings.autoAddProtocol": "Adicionar Protocolo Automaticamente",
+  "settings.autoAddProtocol.desc": "Adicionar automaticamente https:// a URLs sem protocolo",
+  "settings.autoSaveHistory": "Salvar Histórico Automaticamente",
+  "settings.autoSaveHistory.desc": "Salvar automaticamente URLs verificadas no histórico",
+  "settings.defaultUserAgent": "Agente de Usuário Padrão",
+  "settings.buttons.cancel": "Cancelar",
+  "settings.buttons.save": "Salvar Alterações",
+
+  // Language
+  "language.select": "Selecionar idioma",
+  "language.changed": "Idioma alterado para {name}",
+  "language.changed.desc": "O idioma da aplicação foi atualizado.",
+
+  // Theme
+  "theme.light": "Claro",
+  "theme.dark": "Escuro",
+  "theme.system": "Sistema",
+  "theme.activated": "Tema {theme} ativado",
+  "theme.activated.desc": "A aplicação agora está no modo {theme}.",
+
+  // Search
+  "search.placeholder": "Verificar URL ou pesquisar...",
+
+  // Footer
+  "footer.copyright": "© {year} Verificador de Status HTTP. Todos os direitos reservados.",
+  "footer.privacy": "Privacidade",
+  "footer.terms": "Termos",
+  "footer.contact": "Contato",
+
+  // Date formatting
+  "date.format.short": "dd/MM/yyyy",
+  "date.format.long": "d 'de' MMMM 'de' yyyy",
+  "date.timeAgo.seconds": "há {count} segundos",
+  "date.timeAgo.minutes": "há {count} minutos",
+  "date.timeAgo.hours": "há {count} horas",
+  "date.timeAgo.days": "há {count} dias",
+  "date.timeAgo.weeks": "há {count} semanas",
+  "date.timeAgo.months": "há {count} meses",
+  "date.timeAgo.years": "há {count} anos",
+
+  // Common
+  "common.loading": "Carregando...",
+  "common.error": "Erro",
+  "common.warning": "Aviso",
+  "common.success": "Sucesso",
+  "common.info": "Informação",
+  "common.close": "Fechar",
+  "common.save": "Salvar",
+  "common.cancel": "Cancelar",
+  "common.delete": "Excluir",
+  "common.edit": "Editar",
+  "common.add": "Adicionar",
+  "common.remove": "Remover",
+  "common.yes": "Sim",
+  "common.no": "Não",
+  "common.back": "Voltar",
+  "common.next": "Próximo",
+  "common.previous": "Anterior",
+  "common.menu": "Menu",
+}
